@@ -277,8 +277,17 @@
   .price-card h3{font-size:19px; margin-bottom:6px;}
   .price-card .price-installment{font-family:'Playfair Display', serif; font-size:34px; color:var(--sage-dark); margin:14px 0 4px;}
   .price-card .price-total{font-size:14.5px; color:var(--ink-soft); margin-bottom:22px;}
-  .price-card ul{list-style:none;}
+  .price-card ul{list-style:none; margin-bottom:26px;}
   .price-card ul li{display:flex; gap:10px; font-size:15.5px; padding:7px 0; color:var(--ink);}
+  .price-btn{
+    display:block; text-align:center; background:var(--terracotta); color:#fff !important;
+    padding:15px 24px; border-radius:100px; font-size:15px; font-weight:500; letter-spacing:0.02em;
+    box-shadow:0 10px 24px -10px rgba(156,79,52,0.55);
+    transition:transform .25s ease, background .25s ease;
+  }
+  .price-btn:hover{background:var(--terracotta-dark); transform:translateY(-2px);}
+  .price-card:not(.featured) .price-btn{background:var(--sage); box-shadow:0 10px 24px -10px rgba(124,139,110,0.5);}
+  .price-card:not(.featured) .price-btn:hover{background:var(--sage-dark);}
   .price-note{text-align:center; color:var(--ink-soft); font-size:14.5px; margin-top:28px; font-style:italic; font-family:'Cormorant Garamond', serif;}
 
   /* FINAL CTA */
@@ -330,7 +339,7 @@
       <a href="#modalidades">Modalidades</a>
       <a href="#supervisora">Supervisora</a>
       <a href="#investimento">Investimento</a>
-      <a href="https://forms.gle/PvqUw2sfcB3RyvXS8" class="btn" target="_blank" rel="noopener">Quero saber mais</a>
+      <a href="#investimento" class="btn">Quero me inscrever</a>
     </nav>
     <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu"><span></span><span></span><span></span></button>
   </div>
@@ -350,7 +359,7 @@
         <h1>Supervisão Clínica em Psicoterapia na Primeira Infância e Orientação Parental</h1>
         <p class="lede">Um programa para psicólogos e estudantes de Psicologia que desejam desenvolver raciocínio clínico, manejo terapêutico e segurança na condução de casos com crianças de 2 a 6 anos e suas famílias.</p>
         <div class="hero-actions">
-          <a href="https://forms.gle/PvqUw2sfcB3RyvXS8" class="btn" target="_blank" rel="noopener">Quero saber mais</a>
+          <a href="#investimento" class="btn">Quero me inscrever</a>
         </div>
         <p class="hero-note">Com a Profa. Dra. Pompéia Villachan-Lyra · CRP 02/10.761</p>
       </div>
@@ -630,6 +639,7 @@
             <li>✓ Feedback individualizado</li>
             <li>✓ Drive exclusivo e grupo de WhatsApp</li>
           </ul>
+          <a href="https://chk.eduzz.com/80176AX607" class="price-btn" target="_blank" rel="noopener">Garantir vaga como supervisionando</a>
         </div>
         <div class="price-card">
           <h3>Participante clínico</h3>
@@ -641,6 +651,7 @@
             <li>✓ Contribui com hipóteses e reflexões</li>
             <li>✓ Drive exclusivo e grupo de WhatsApp</li>
           </ul>
+          <a href="https://chk.eduzz.com/40QR6GPK9B" class="price-btn" target="_blank" rel="noopener">Garantir vaga como participante</a>
         </div>
       </div>
       <p class="price-note">As vagas poderão ser preenchidas por ordem de inscrição e confirmação da matrícula.</p>
@@ -652,9 +663,9 @@
     <div class="wrap">
       <div class="final-cta">
         <span class="eyebrow" style="color:#DFB3A4;">Vagas limitadas</span>
-        <h2>Quero saber mais</h2>
+        <h2>Garanta sua vaga</h2>
         <p>Se você deseja aprofundar sua atuação clínica com crianças pequenas e famílias, esta supervisão foi pensada para apoiar seu desenvolvimento profissional com teoria, prática, troca qualificada e acompanhamento próximo.</p>
-        <a href="https://forms.gle/PvqUw2sfcB3RyvXS8" class="btn" target="_blank" rel="noopener">Quer participar deste Programa de Supervisão? Clique aqui para preencher o Formulário</a>
+        <a href="#investimento" class="btn">Ver modalidades e inscrever-se</a>
       </div>
     </div>
   </section>
